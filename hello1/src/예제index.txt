@@ -1,0 +1,176 @@
+명품 자바 예제 정리
+
+참고
+    터미널에서 컴파일 하기(디폴트 패키지)
+        javac ./src/Ex7_HashMapStudentEx.java
+        java -cp ./src Ex7_HashMapStudentEx // 경로 입력x, 클래스 이름만, 클래스 패스 지정
+
+코드 실행은 myoungPumJava_solution에서 할 것
+    클래스명 중복으로 인한 문제가 발생한다.
+
+3장 반복문과 배열
+    for문
+        예제3-1 : for 문을이용하여1부터10까지합출력
+    while문
+        예제3-2 : -1이입력될때까지입력된수의평균구하기
+    do while
+        예제3-3 : a-z까지 출력
+    2중 for문
+        예제3-4 : 2중중첩을이용한구구단
+    continue
+        예제3-5 : continue 문을이용하여양수합구하기
+    break
+        예제3-6 : break 문을 이용하여 while 문 벗어나기
+        예제3-7 : 배열에입력받은수중제일큰수찾기
+        예제3-8 : 배열원소의평균구하기
+        예제3-9 : for-each 문활용
+        예제3-10 : 2차원배열로4년평점구하기
+        예제3-11 : 비정방형배열의생성과접근
+        예제3-12 : 배열리턴
+        예제3-13 : main()에서 명령행 인자의 합 계산
+        예제3-14 : 0으로나누기예외발생으로프로그램 이강제종료되는경우
+        예제3-15 : 0으로 나눌 때 발생하는 ArithmeticException 예외처리
+        예제3-16 : 범위를벗어난배열의접근
+        예제3-17 : 입력오류시발생하는 예외(InputMismatchException)
+        예제3-18 : 정수가 아닌 문자열을정수로변환할 때 예외발생(NumberFormatException)
+
+4장 클래스와 객체
+    클래스와 객체
+        예제4-1 : Circle 클래스의객체생성및활용
+        예제4-2 : Rectangle 클래스만들기연습
+    생성자
+        예제4-3 : 두 개의생성자를가진Circle 클래스
+        예제4-4 : 생성자 선언및활용연습
+    this 레퍼런스
+        예제4-5 this()로 다른 생성자 호출
+    객체 배열
+        예제4-6 : Circle 객체배열만들기
+        예제4-7 : 객체배열만들기연습
+    인자 전달
+        예제4-8 : 인자로배열이전달되는예
+    객체의 소멸과 가비지 컬렉션
+        예제4-9 : 가비지의발생
+    접근 지정자
+        예제4-10 : 멤버의 접근 지정자
+    static 멤버와 non-static 멤버
+        예제4-11 : static 멤버를 가진 Calc 클래스 작성
+        예제4-12 : static을이용한환율계산기
+
+5장 상속
+    상속 기본
+        예제5-1: Point와 ColorPoint클래스
+    상속관계 멤버 접근
+        예제5-2: 상속관계에있는클래스간 멤버접근
+    생성자: 명시적으로 super 클래스 생성자 선택
+        예제5-3: super()를 활용한 ColorPoint 작성
+    instanceof 연산자 활용
+        예제5-4: instanceof 연산자 활용
+    메소드 오버라이딩
+        예제5-5: 메소드오버라이딩으로다형성실현
+        예제5-6: 메소드오버라이딩
+    추상 클래스
+        예제5-7: 추상 클래스의구현연습
+    인터페이스
+        예제5-8 인터페이스구현
+        예제5-9: 인터페이스를구현하고동시에클래스를상속받는사례
+
+6장
+    목차
+    6.1 패키지
+    6.2 import와 클래스 경로
+    6.3 패키지 만들기
+    6.4 모듈 개념
+    6.5 자바 JDK에서 제공하는 패키지
+    6.6 Object 클래스
+    6.7 Wrapper 클래스
+    6.8 String 클래스
+    6.9 StringBuffer 클래스
+    6.10 StringTokenizer 클래스
+
+    예제    
+    예제6-1 : Object 클래스로객체속성알아내기
+    예제6-2 : Point 클래스에 toString() 작성
+    예제6-3 : Point 클래스에equals() 작성
+    예제6-4 : Rect클래스와equals() 만들기연습
+    예제6-5 : Wrapper 클래스활용
+    예제6-6 : 박싱 언박싱
+    예제6-7 : String 클래스메소드활용
+    예제6-8 : StringBuffer클래스메소드활용
+    예제6-9 : StringTokenizer 클래스 메소드 활용
+    예제6-10 : Math 클래스메소드활용
+    예제6-11 : Calendar를이용하여현재날짜와시간알아내기/날짜시간설정하기
+
+7장 제네릭과 컬렉션
+    목차
+    7.1 컬렉션과 제네릭
+        컬렉션(collection)의 개념
+        컬렉션을 위한 자바 인터페이스와 클래스
+        컬렉션과 제네릭
+        제네릭의 기본 개념
+        제네릭 Stack<E> 클래스의 JDK 매뉴얼
+    7.2 제네릭 컬렉션 활용
+        Vector<E>
+        Vector<Integer> 컬렉션 내부 구성
+        타입 매개 변수 사용하지 않는 경우 경고 발생
+        Vector<E> 클래스의 주요 메소드
+        컬렉션과자동박싱/언박싱
+        컬렉션을매개변수로받는메소드만들기
+        자바의타입추론기능의진화
+        ArrayList<E>
+        ArrayList<String> 컬렉션의 내부 구성
+        ArrayList<E> 클래스의 주요 메소드
+        컬렉션의순차검색을위한Iterator
+        HashMap<K,V>
+        HashMap<String, String>의 내부 구성
+        HashMap<K,V>의 주요 메소드
+        LinkedList<E>
+        LinkedList<String>의 내부 구성과 put(), get() 메소드
+        Collections 클래스 활용
+    7.3 제네릭 만들기
+        제네릭클래스와인터페이스
+        제네릭객체생성–구체화(specialization)
+        구체화오류
+        타입매개변수
+        제네릭과배열
+        제네릭메소드
+        제네릭의장점
+
+    예제
+    예제7-1 : 정수만다루는Vector<Integer> 컬렉션활용
+    예제7-2 : Point 클래스만다루는Vector<Point> 컬렉션활용
+    예제7-3 : 문자열 입력받아ArrayList에 저장
+    예제7-4 : Iterator를이용하여Vector의모든요소를출력하고합구하기
+    예제7-5 : HashMap을 이용하여 (영어, 한글) 단어 쌍의 저장 검색
+    예제7-6 HashMap을이용하여자바과목의이름과점수관리
+    예제7-7 HashMap에객체저장, 학생정보관리
+    예제7-8 : Collections 클래스의활용
+    예제7-9 : 제네릭 스택만들기
+    예제7-10 : 스택의내용을반대로만드는제네릭메소드만들기
+
+보충자료
+    목차
+    A. Collection
+    목차   
+        Enhances for 문의 사용
+        interface Iterable<T>
+        public interface ListIterator<E> extends Iterator<E>
+        public static <T> List<T> asList(T... a)
+        interface Set<E>
+        class HashSet<E>
+        class TreeSet<E>
+        interface Queue<E>
+        interface Deque<E>
+    B. Generics
+    C. Initialization
+    D. Object Cloning
+    E. 예외 핸들링
+    F. Nested Classes
+
+8장 입출력 스트림과 파일 입출력
+    목차
+    8.1 자바의 입출력 스트림
+    8.2 문자 스트림과 파일 입출력
+    8.3 바이트 스트림과 파일 입출력
+    8.4 버퍼 입출력과 파일 입출력
+    8.5 File 클래스로
+    8.6 파일 입출력 응용: 파일 복사
